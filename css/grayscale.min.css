@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Grayscale v5.0.5 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -169,7 +165,8 @@
     left bottom,
     from(#161616),
     color-stop(75%, rgba(22, 22, 22, 0.9)),
-    to(rgba(22, 22, 22, 0.8)));
+    to(rgba(22, 22, 22, 0.8)))
+    url(../img/loganMainPic.jpg);;
 
 
   background: linear-gradient(to top,
@@ -179,20 +176,23 @@
 }
 
 .about-section {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding: 10rem 0;
   background: -webkit-gradient(linear,
     left top,
     left bottom,
-    from(#161616),
-    color-stop(75%, rgba(22, 22, 22, 0.9)),
-    to(rgba(22, 22, 22, 0.8)));
-
-
+    from(rgba(22, 22, 22, 0.1)),
+    color-stop(75%, rgba(22, 22, 22, 0.5)),
+    to(#161616)),
+    url(../img/loganMainPic.jpeg);
   background: linear-gradient(to bottom,
-    #161616 0,
-    rgba(22, 22, 22, 0.9) 75%,
-    rgba(22, 22, 22, 0.8) 100%);
+    rgba(22, 22, 22, 0.1) 0,
+    rgba(22, 22, 22, 0.5) 75%,
+    #161616 100%),
+    url(../img/loganMainPic.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .portfolio-video {
@@ -373,10 +373,10 @@ footer {
 
 .animation-element.slide-left {
   opacity: 0;
-  -moz-transition: all 700ms linear;
-  -webkit-transition: all 700ms linear;
-  -o-transition: all 700ms linear;
-  transition: all 700ms linear;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
   -moz-transform: translate3d(-100px, 0px, 0px);
   -webkit-transform: translate3d(-100px, 0px, 0px);
   -o-transform: translate(-100px, 0px);
@@ -397,10 +397,10 @@ footer {
 
 .animation-element.slide-right {
   opacity: 0;
-  -moz-transition: all 700ms linear;
-  -webkit-transition: all 700ms linear;
-  -o-transition: all 700ms linear;
-  transition: all 700ms linear;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
   -moz-transform: translate3d(100px, 0px, 0px);
   -webkit-transform: translate3d(100px, 0px, 0px);
   -o-transform: translate(100px, 0px);
